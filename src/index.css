@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button{
+    transition: all .3s ease-in-out;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    border: 1px solid blue;
+}
+
+.button:active{
+    transform: scale(0.9);
+}
+
+.join{
+    padding: 7px 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background: linear-gradient(170deg, red, white, red);
+    transition: all .3s ease-in-out;
+}
+
+.join:hover{
+    transform: scale(1.1);
+}
+
+.join:active{
+    transform: scale(0.9);
+}
+
+.section-border{
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.back{
+    background-image: url(./bg-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.border-bottom{
+    border-bottom: 5px solid white;
+}
